@@ -1,7 +1,7 @@
 ---
 title: How you should fund
 email: johndoe@email.com
-image: "/images/avatar.png"
+image: "/images/Howtofund.png"
 description: this is meta description
 social:
   - name: github
