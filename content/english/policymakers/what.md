@@ -1,7 +1,7 @@
 ---
 title: What you could fund
 email: samwilson@email.com
-image: "/images/avatar.png"
+image: "/images/Whattofund.png"
 description: this is meta description
 ---
 
