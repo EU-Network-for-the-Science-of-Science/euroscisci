@@ -1,9 +1,9 @@
 ---
 # Banner
 banner:
-  title: "What is SciSci?"
+  title: "European Network<br>for the Science of Science"
   content: | 
-    "The Science of Science (SciSci) studies how scientific knowledge is created, shared, and advanced using data-driven insights."
+    "The Science of Science (SciSci) studies how scientific knowledge is created, shared, and advanced using evidence-driven insights."
 
     {{< accordion "What?" >}}
       <p>Science of science studies the production, evaluation and sharing of knowledge in a scientific context. Its scope ranges from micro (researcher) through meseo (institution) to macro (system) levels. Studying science in this way can also look outwards to its relations with society and policy. Science itself is complex and multifaceted, so it is studied by numerous fields and from several points of view.</p>
