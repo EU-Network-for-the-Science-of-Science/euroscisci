@@ -9,7 +9,7 @@ weight = 1
 [[main]]
 name = "For You"
 url = "/you"
-weight = 3
+weight = 2
 
 [[main]]
 name = "For Policymakers"
@@ -19,30 +19,15 @@ weight = 3
 [[main]]
 name = "For Academics"
 url = "/academics"
-weight = 3
-
-[[main]]
 weight = 4
-name = "News"
 
 [[main]]
-parent = "News"
-name = "Events"
-url = "/events"
-
+name = "News"
+url = "/news"
+weight = 5
 
 # footer menu
 [[footer]]
 name = "About"
 url = "/about"
 weight = 1
-
-[[footer]]
-name = "Elements"
-url = "/elements"
-weight = 2
-
-[[footer]]
-name = "Privacy Policy"
-url = "/privacy-policy"
-weight = 3
