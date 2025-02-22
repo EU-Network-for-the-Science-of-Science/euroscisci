@@ -1,11 +1,5 @@
 ############# English navigation ##############
 
-# main menu
-[[main]]
-name = "Home"
-url = "/"
-weight = 1
-
 [[main]]
 name = "For You"
 url = "/you"
