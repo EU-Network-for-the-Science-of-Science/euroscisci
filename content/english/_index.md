@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
+  title: "What is SciSci?"
+  content: "The Science of Science (SciSci) studies how scientific knowledge is created, shared, and advanced using data-driven insights."
   image: "/images/banner.png"
   button:
     enable: true
