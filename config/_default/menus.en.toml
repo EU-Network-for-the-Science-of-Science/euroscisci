@@ -7,13 +7,18 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "love"
-url = "/about"
-weight = 2
+name = "For You"
+url = "/you"
+weight = 3
 
 [[main]]
-name = "tt"
-url = "/elements"
+name = "For Policymakers"
+url = "/policymakers"
+weight = 3
+
+[[main]]
+name = "For Academics"
+url = "/academics"
 weight = 3
 
 [[main]]
