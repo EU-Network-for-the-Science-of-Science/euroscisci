@@ -1,7 +1,9 @@
 # 🌍 European Network for Science of Science - Website  
 
 Welcome to the website repository for the **[European Network for Science of Science](git@github.com:EU-Network-for-the-Science-of-Science/euroscisci.git)**!  
-This site was developed during the `hackaton` organized at **2025 workshop** of the Network.  
+This site was developed during the `hackaton` at **2025 workshop** of the Network, organized by [Justin Sulik](http://justinsulik.com/) at MI3/LMU.
+
+The EuroScisci project builds on a series of [scientific workshops (2022-2023)](https://blogs.helsinki.fi/computational-science-studies/) organized by [Jacob Habinek](https://www.jacobhabinek.net/) (The Institute for Analytical Sociology, Linköping University), [Pantelis Analytis](https://www.sdu.dk/en/forskning/forskningsenheder/samf/sod/simple-employee-list-sod/group-members/pantelis-analytis) (Danish Institute of Advanced Studies, University of Southern Denmark) and [Samuli Reijula](https://www.samulireijula.net/) (TINT/Theoretical Philosophy, University of Helsinki).
 
 ## 📌 Overview  
 This repository contains everything you need to download, set up, and run the website locally.  
