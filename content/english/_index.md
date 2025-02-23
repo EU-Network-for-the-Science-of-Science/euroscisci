@@ -1,13 +1,27 @@
 ---
 # Banner
 banner:
-  title: "What is SciSci?"
-  content: "The Science of Science (SciSci) studies how scientific knowledge is created, shared, and advanced using data-driven insights."
+  title: "European Network<br>for the Science of Science"
+  content: | 
+    The Science of Science (SciSci) studies how scientific knowledge is created, shared, and advanced using evidence-driven insights. 
+
+    <br>
+
+    {{< accordion "What?" >}}
+      <p>Science of science studies the production, evaluation and sharing of knowledge in a scientific context. Its scope ranges from micro (researcher) through meseo (institution) to macro (system) levels. Studying science in this way can also look outwards to its relations with society and policy. Science itself is complex and multifaceted, so it is studied by numerous fields and from several points of view.</p>
+    {{< /accordion >}}
+    {{< accordion "Why?" >}}
+      <p>Science of science aims to: [curiosity] understand how scientific knowledge is produced. [policy oriented] inform paths to improve the production of scientific knowledge. [society oriented] attend the needs for scientific knowledge from society (science itself, industry, government and the general public).</p>
+    {{< /accordion >}}
+    {{< accordion "How?" >}}
+      <p>We are an interdisciplinary network of researchers, primarily active in Europe. We are an open community---a way to connect with diverse interested parties---rather than xxxdisciplinexxx.</p>
+    {{< /accordion >}}
+
   image: "/images/banner.png"
   button:
-    enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+  enable: true
+  label: "Get Started For Free"
+  link: "https://github.com/zeon-studio/hugoplate"
 
 # Features
 features:
