@@ -1,4 +1,4 @@
-# 🌍 European Network for Science of Science --- Website  
+# 🌍 European Network for Science of Science - Website  
 
 Welcome to the website repository for the **[European Network for Science of Science](git@github.com:EU-Network-for-the-Science-of-Science/euroscisci.git)**!  
 This site was developed during the `hackaton` organized at **2025 workshop** of the Network.  
