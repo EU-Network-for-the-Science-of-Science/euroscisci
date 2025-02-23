@@ -9,13 +9,13 @@ draft: false
 ---
 
 
-Coming up
+# Coming up
 
-July 2025: [IC2S2](https://www.ic2s2-2025.org/) (Norrköping)
+**July 2025**: [IC2S2](https://www.ic2s2-2025.org/) (Norrköping)
 
-June 2025: [ICSSI](https://www.icssi.org/) (Copenhagen)
+**June 2025**: [ICSSI](https://www.icssi.org/) (Copenhagen)
 
-Past
+# Past
 
 February 2025: Bridging Approaches in the Sciences Studying Science (MI3, Munich)
 
