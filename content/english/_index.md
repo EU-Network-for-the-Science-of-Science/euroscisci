@@ -27,18 +27,19 @@ banner:
 features:
   - title: "For academics"
     image: "/images/service-2.png"
-    content: "We are a wild bunch enjoying doing science and learning about how science work. If you are interested in this and want to share your ideas with us, please join us!"
+    content: "We are a wild bunch enjoying doing science and learning about how science works. If you are interested in this and want to share your ideas with us, please join us!"
     bulletpoints:
       - "Interdisciplinary science"
       - "From Physics to philosopher, from communication scientists to : every one is welcome"
     button:
       enable: true
       label: "Wanna know more"
-      link: "/academics"
+      link: "academics"
+
 
   - title: "For society and policymakers"
     image: "/images/service-1.png"
-    content: "he science of science helps society by improving research efficiency and fostering innovation through data-driven insights. It enables better policymaking by identifying trends in scientific progress and collaboration."
+    content: "Science of science helps society by improving research efficiency and fostering innovation through data-driven insights. It enables better policymaking by identifying trends in scientific progress and collaboration."
     bulletpoints:
       - "Enhances scientific funding decisions based on impact analysis."
       - "Identifies emerging research areas for future advancements."

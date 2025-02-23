@@ -1,11 +1,6 @@
 ############# English navigation ##############
 
 [[main]]
-name = "For You"
-url = "/you"
-weight = 2
-
-[[main]]
 name = "For Policymakers"
 url = "/policymakers"
 weight = 3
@@ -20,8 +15,14 @@ name = "News"
 url = "/news"
 weight = 5
 
+
+[[main]]
+name = "Members"
+url = "/members"
+weight = 6
+
 # footer menu
 [[footer]]
-name = "About"
-url = "/about"
+name = "Members"
+url = "/members"
 weight = 1
