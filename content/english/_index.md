@@ -11,43 +11,27 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
-    image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
-    bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
-    button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
-
-  - title: "Discover the Key Features Of Hugo"
+  - title: "For academics"
     image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "We are a wild bunch enjoying doing science and learning about how science work. If you are interested in this and want to share your ideas with us, please join us!"
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Interdisciplinary science"
+      - "From Physics to philosopher, from communication scientists to : every one is welcome"
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      label: "Wanna know more"
+      link: "/academics"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "For society and policymakers"
+    image: "/images/service-1.png"
+    content: "he science of science helps society by improving research efficiency and fostering innovation through data-driven insights. It enables better policymaking by identifying trends in scientific progress and collaboration."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Enhances scientific funding decisions based on impact analysis."
+      - "Identifies emerging research areas for future advancements."
+      - "Promotes diversity and collaboration in scientific communities."
+      - "Helps bridge the gap between research and real-world applications."
     button:
       enable: false
-      label: ""
-      link: ""
+      label: "Get Started Now"
+      link: "policymakers"
 ---
