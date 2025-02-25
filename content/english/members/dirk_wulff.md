@@ -19,7 +19,7 @@ social:
 
   - name: email
     icon: fa fa-envelope
-    link: wulff@mpib-berlin.mpg.de
+    link: mailto:wulff@mpib-berlin.mpg.de
 
   - name: website
     icon: fa fa-globe
