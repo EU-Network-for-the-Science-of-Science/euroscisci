@@ -55,3 +55,59 @@ Then, open **[http://localhost:1313/euroscisci/](http://localhost:1313/euroscisc
 ---
 
 📢 *For additional details and customization, refer to the project's documentation or the Hugo official guides.*  
+
+## How to add new members
+
+🗂 Navigate to the members folder
+```bash
+cd content\english\members
+```
+
+📄 Create a Markdown file with the name of the member
+
+```bash
+touch firstname_lastname.md
+```
+
+✍️ Copy and paste the following content into the new file and complete with the correct information
+```
+---
+title: FirstName LastName
+email: FirstName.LastName@example.com
+image: "/images/profiles/FirstNameLastName.jpg"
+website: https://LastName.com/
+description: Researcher | Data Science | AI
+social:
+  # - name: github
+  #   icon: fa-brands fa-github
+  #   link: https://www.github.com/FirstNameLastName
+
+   - name: linkedin
+     icon: fa-brands fa-linkedin
+     link: https://www.linkedin.com/in/FirstNameLastName
+  
+  - name: google scholar
+    icon: fab fa-google-scholar
+    link: https://scholar.google.com/citations?user=XXXXXXXXXX
+
+  - name: email
+    icon: fa fa-envelope
+    link: mailto:FirstName.LastName@example.com
+
+  - name: website
+    icon: fa fa-globe
+    link: https://LastName.com/
+---
+```
+💾 Save your changes
+
+If you are using the online interface on GitHub, remember to save the file.
+If you are working locally, run the following commands:
+```bash
+git add firstname_lastname.md
+```
+```bash
+git commit -m "adding new member"
+git pull
+git push
+```
