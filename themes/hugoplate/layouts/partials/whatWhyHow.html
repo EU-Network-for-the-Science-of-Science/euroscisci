@@ -1,0 +1,157 @@
+<div class="custom-card">
+    <div class="card-body"
+       data-what="{{ .whatText | htmlEscape }}"
+       data-why="{{ .whyText | htmlEscape }}"
+       data-how="{{ .howText | htmlEscape }}">
+
+      <div class="WWH-wrapper">
+          <div class="W-block" data-type="what">What?</div>
+          <div class="W-block" data-type="why">Why?</div>
+          <div class="W-block" data-type="how">How?</div>
+
+          <div id="WWH-text" class="WWH-text">
+              {{ .whatText }}
+          </div>
+
+          <a class="learnMoreButton" href="/euroscisci/">Learn More</a>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    .custom-card {
+      border-radius: 8px;
+      margin: 20px 0;
+      overflow: hidden;
+      background-color: #fff;
+      transition: transform 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .card-body {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .WWH-wrapper {
+        position: relative;
+        width: 900px;
+        height: 450px;
+        margin: 40px auto;
+    }
+
+    .WWH-wrapper .learnMoreButton {
+        position: absolute;
+        bottom: 16.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: inline-block;
+        background-color: #0066cc;
+        color: white;
+        padding: 6px 10px;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-top: 15px;
+        transition: background-color 0.2s ease;
+        cursor: pointer;
+    }
+
+    .learnMoreButton:hover {
+      background-color: #0055aa;
+    }
+
+    .WWH-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 650px;
+        height: 300px;
+        transform: translate(-50%, -50%);
+        background: #f4f4f4;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 50px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+    }
+
+    .W-block {
+        position: absolute;
+        width: 80px;
+        text-align: center;
+        padding: 6px 10px;
+        border-radius: 20px;
+        background: #000;
+        color: #fff;
+        font-weight: bold;
+        transition: background-color 0.15s ease;
+        cursor: pointer;
+    }
+
+    .W-block:hover,
+    .W-block.active {
+        background: lightgray;
+        color: black;
+    }
+
+    /* Positioning of the WWH blocks */
+    .W-block[data-type="what"] {
+        left: 0%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .W-block[data-type="why"] {
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .W-block[data-type="how"] {
+        right: 0%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+  </style>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const cards = document.querySelectorAll('.custom-card');
+
+        cards.forEach(card => {
+        const body = card.querySelector('.card-body');
+        const textDisplay = card.querySelector('#WWH-text');
+
+        const texts = {
+            what: body.getAttribute('data-what'),
+            why: body.getAttribute('data-why'),
+            how: body.getAttribute('data-how')
+        };
+
+        const blocks = card.querySelectorAll('.W-block');
+
+        blocks.forEach(block => {
+            block.addEventListener('click', function () {
+            const type = block.getAttribute('data-type');
+
+            // Update content
+            textDisplay.innerText = texts[type];
+
+            // Highlight active block
+            blocks.forEach(b => b.classList.remove('active'));
+            block.classList.add('active');
+            });
+        });
+
+        // Set default to What block
+        blocks[0].click();
+        });
+    });
+  </script>
+  
